@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website design</title>
+    <style>
+header{
+    padding: 10px;
+    background-color: antiquewhite;
+    color: black;
+text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('/a.jpeg');
+    background-size: cover;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+
+   
+} 
+@media(max-width:700px){
+            .header{
+                font-size: 24px;
+           }
+        }
+
+nav{
+    overflow: hidden;
+    background-color:lightcyan;
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: bisque;
+    color: black;
+    
+      
+     
+    }
+        /* --course-- */
+        .course{
+            width: 50%;
+            margin: auto;
+            text-align: center;
+            padding-top: 100px;
+        }
+        h1{
+            font-size: 36px;
+            font-weight: 600;
+        }
+        p{
+            color: #777; ;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+            padding: 10px;
+        }
+        .row{
+            margin-top: 5%;
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        .course-col{
+            flex-basis: 31%;
+            background: #fff3f3;
+            border-radius: 10px;
+            margin-bottom: 5%;
+            padding: 20px 12px;
+            box-sizing: border-box;
+            transition: 0.5s;
+        }
+        h3{
+            text-align: center;
+            font-weight: 600;
+            margin: 10px 0px;
+
+        }
+        .course-col:hover{
+            box-shadow:0 0 20px 0px rgba(0,0,0, 0.2) ;
+        }
+        @media(max-width:700px){
+            .row{
+                flex-direction: column;
+            }
+        }
+       
+        
+        /* --campus-- */
+        .campus{
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .campus-col{
+            flex-basis: 12px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            position: relative;
+            overflow: hidden;
+            
+        }
+       
+            
+            
+            
+        
+        
+        
+        
+        /* --facilitities-- */
+        .facilities{
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            padding-top: 100px;
+        }
+        /* --testimonials-- */
+        .testimonials{
+            width: 80%;
+            margin: auto;
+            padding-top: 100px;
+            text-align: center;
+        }
+        .testimonial-col{
+            flex-basis: 44%;
+            border-radius: 10px;
+            margin-bottom: 5%;
+            text-align: left;
+            background: #fff3f3;
+            padding: 52px;
+            cursor:pointer;
+            display: flex;
+        }
+        .testimonial-col img{
+            height: 40px;
+            margin-left: 5px;
+            margin-right: 30px;
+            border-radius: 50%;
+            
+        }
+        .testimonial-col p{
+            padding: 0;
+        }
+        .testimonial-col h3{
+            margin-top: 15px;
+            text-align: left;
+        }
+        /* --call to action-- */
+        .cta{
+            margin: 100px auto;
+            width: 80%;
+            background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image/images.png);
+            background-position: center;
+            background-size: cover;
+            border-radius: 10px;
+            text-align: center;
+            padding: 100px 0;
+        }
+        .cta h1{
+            color: #fff;
+            margin-bottom: 40px;
+            padding: 0;
+        }
+        @media(max-width:700px){
+            .cta h1{
+                font-size: 24px;
+
+            }
+        }
+        /* --footer-- */
+        .footer{
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .footer h4{
+            margin-top: 10px;
+            margin-bottom: 25px;
+            font-weight: 600;
+        }
+           
+
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        
+        <h1>Welcome to washington university</h1>
+        <p><h3> great place to learn</h3></p>
+        <a href="">visit us to know more</a>
+    </header>
+<nav>
+    
+    
+
+    <ul>
+        <li>
+    <a href="#">Home</a></li>
+    <br>
+    <li>
+    <a href="#">About</a></li>
+    <br>
+   <li> <a href="#">Course</a></li>
+    <br>
+   <li> <a href="#">Blog</a></li>
+    </ul>
+    
+
+</nav>
+
+<!-- course -->
+<section class="course">
+    <h1>courses we offer</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quisquam unde in, doloribus, maiores corporis maxime obcaecati iste et nisi necessitatibus alias sunt quod earum nulla quam consequuntur magnam cupiditate!
+        <div class="row">
+            <div class="course-col">
+                <h3>intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptatibus reiciendis natus voluptates officiis labore qui eum placeat, veniam recusandae deleniti tempora iusto saepe maxime repellat ipsam at, eaque sunt.</p>
+            </div>
+            <div class="course-col">
+                <h3>degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptatibus reiciendis natus voluptates officiis labore qui eum placeat, veniam recusandae deleniti tempora iusto saepe maxime repellat ipsam at, eaque sunt.</p>
+            </div>
+            <div class="course-col">
+                <h3>post graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptatibus reiciendis natus voluptates officiis labore qui eum placeat, veniam recusandae deleniti tempora iusto saepe maxime repellat ipsam at, eaque sunt.</p>
+            </div>
+            <div class="course-col">
+                <h3>certificate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptatibus reiciendis natus voluptates officiis labore qui eum placeat, veniam recusandae deleniti tempora iusto saepe maxime repellat ipsam at, eaque sunt.</p>
+            </div>
+
+</section>
+<!-- campus -->
+<section class="campus">
+<h1>Our Global campus</h1>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+<div class="row">
+    <div class="campus-col"></div>
+    <img src="b.jpeg" height="190"width="250">
+    <div class="layer">
+        <h3>Meeting</h3>
+    </div>
+    <div class="campus-col"></div>
+    <img src="c.jpeg" height="180"width="250">
+    <div class="layer">
+        <h3>cafeteria</h3>
+    </div>
+    <div class="campus-col"></div>
+    <img src="a.jpeg" height="190"width="250">
+    <div class="layer">
+        <h3>graduation day</h3>
+    </div>
+</div>
+</section>
+
+    <!-- facilities -->
+    <section class="facilities">
+        <h1>our facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p> 
+        <div class="row">
+            <div class="facilities-col">
+                <img src="image/VSTC-Library-UP-JMC-2013-9990-1080x720.jpg"height="250"width="300">
+                <h3>world class library</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis repudiandae voluptates porro dolorem itaque dolorum </p>
+            </div>
+            <div class="facilities-col">
+                <img src="image/1245943820.jpg"height="250"width="300">
+                <h3>basketball</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis repudiandae voluptates porro dolorem itaque dolorum </p>
+            </div>
+            <div class="facilities-col">
+                <img src="image/banner.jpeg"height="250"width="300">
+                <h3>largest play ground</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis repudiandae voluptates porro dolorem itaque dolorum </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonials -->
+    <section class="testimonials">
+        <h1>what our student says</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="image/images.jpeg">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, provident harum maxime, odio suscipit magnam corrupti culpa, cum earum quam alias. Sequi rem fugit molestiae quisquam ipsa ad ea debitis!</p>
+                    <h3>davina byer</h3>
+                </div>
+                </div>
+            
+            <div class="testimonial-col">
+                <img src="image/image.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, provident harum maxime, odio suscipit magnam corrupti culpa, cum earum quam alias.</p>
+                    <h3>tim burner lee</h3>
+                </div>
+                </div>
+        </div>
+    </section>
+            
+<!-- call to action -->
+<section class="cta">
+    <h1>Enroll for our various courses <br>anywhere from the world</h1>
+    <a href=""class="hero-btn">Contact us</a>
+</section>
+<!-- footer -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo at quas perferendis est, iusto cumque ipsa impedit ut maiores architecto! <br>Cupiditate facilis alias fugiat, delectus a excepturi perspiciatis maxime distinctio?</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+    </div>
+    </section>
+</body>
+</html>
